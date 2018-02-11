@@ -4,7 +4,7 @@ import FieldController from './controllers/field';
 import SimpleList from './SimpleList';
 import mapProps from '../mapProps';
 import rootProps from '../rootProps';
-import equals from 'fast-deep-equal';
+import equals from 'shallow-equals';
 import debounce from 'lodash.debounce';
 
 
